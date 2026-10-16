@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><head><title>Voice Round Ready Audio</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Figtree:wght@400;600;700&display=swap">
+<style>
+/* Layout: one narrow column of numbered tracks, matching the printed book */
+:root{--bg:#f3f5f8;--card:#ffffff;--ink:#16233a;--muted:#5a6578;--line:#dbe1ea;--accent:#d9632b;--hi:#fbe9df;
+--display:"Lora",Georgia,serif;--body:"Figtree",system-ui,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f1726;--card:#16233a;--ink:#e8edf5;--muted:#9fb0c8;--line:#26354f;--accent:#f08a56;--hi:#2b2a33;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1726;--card:#16233a;--ink:#e8edf5;--muted:#9fb0c8;--line:#26354f;--accent:#f08a56;--hi:#2b2a33;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1{font-family:var(--display);font-size:clamp(28px,7vw,38px);line-height:1.1;margin:4px 0 8px;text-wrap:balance}
+p{margin:0;color:var(--muted);max-width:60ch}
+ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.trk{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px}
+.trk.on{border-color:var(--accent);background:var(--hi)}
+.hd{display:flex;gap:12px;align-items:center;min-width:0}
+.no{font-family:var(--display);font-weight:700;font-size:22px;color:var(--accent);min-width:34px;font-variant-numeric:tabular-nums}
+.ti{display:flex;flex-direction:column;min-width:0}
+.ti span{font-size:13px;color:var(--muted)}
+audio{width:100%}
+.tips{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:14px;color:var(--muted)}
+.tips b{color:var(--ink)}
+small{color:var(--muted);font-size:12px}
+</style></head><body>
+<div class="wrap">
+<header><div class="eyebrow">Voice Round Ready · audio</div><h1>Listening tracks</h1>
+<p>Use these with your Voice Round Ready book. After each beep, answer out loud in the pause, just like the real test. The correct answer is read after the pause.</p></header>
+<div class="tips"><b>Tip:</b> use earphones, play each track once without looking at the book, then check your answers in the book.</div>
+<ol><li class="trk" id="t01"><div class="hd"><span class="no">01</span><div class="ti"><b>Sounds that cost marks</b><span>Section 3 in your book · 4:42</span></div></div><audio controls preload="none" src="audio/track01.mp3"></audio></li><li class="trk" id="t02"><div class="hd"><span class="no">02</span><div class="ti"><b>Silent letters and tricky words</b><span>Section 4 in your book · 1:09</span></div></div><audio controls preload="none" src="audio/track02.mp3"></audio></li><li class="trk" id="t03"><div class="hd"><span class="no">03</span><div class="ti"><b>Read aloud – model readings</b><span>Section 5 in your book · 4:58</span></div></div><audio controls preload="none" src="audio/track03.mp3"></audio></li><li class="trk" id="t04"><div class="hd"><span class="no">04</span><div class="ti"><b>Repeat – sentences 1 to 16</b><span>Section 6 in your book · 3:28</span></div></div><audio controls preload="none" src="audio/track04.mp3"></audio></li><li class="trk" id="t05"><div class="hd"><span class="no">05</span><div class="ti"><b>Repeat – sentences 17 to 32</b><span>Section 6 in your book · 4:38</span></div></div><audio controls preload="none" src="audio/track05.mp3"></audio></li><li class="trk" id="t06"><div class="hd"><span class="no">06</span><div class="ti"><b>Short answers</b><span>Section 7 in your book · 5:29</span></div></div><audio controls preload="none" src="audio/track06.mp3"></audio></li><li class="trk" id="t07"><div class="hd"><span class="no">07</span><div class="ti"><b>Sentence builds</b><span>Section 8 in your book · 7:17</span></div></div><audio controls preload="none" src="audio/track07.mp3"></audio></li><li class="trk" id="t08"><div class="hd"><span class="no">08</span><div class="ti"><b>Conversations</b><span>Section 9 in your book · 5:18</span></div></div><audio controls preload="none" src="audio/track08.mp3"></audio></li><li class="trk" id="t09"><div class="hd"><span class="no">09</span><div class="ti"><b>Passage questions</b><span>Section 10 in your book · 3:59</span></div></div><audio controls preload="none" src="audio/track09.mp3"></audio></li><li class="trk" id="t10"><div class="hd"><span class="no">10</span><div class="ti"><b>Story retelling</b><span>Section 11 in your book · 7:30</span></div></div><audio controls preload="none" src="audio/track10.mp3"></audio></li><li class="trk" id="t11"><div class="hd"><span class="no">11</span><div class="ti"><b>Opinion and open questions</b><span>Section 12 in your book · 9:32</span></div></div><audio controls preload="none" src="audio/track11.mp3"></audio></li><li class="trk" id="t12"><div class="hd"><span class="no">12</span><div class="ti"><b>Dictation</b><span>Section 15 in your book · 5:52</span></div></div><audio controls preload="none" src="audio/track12.mp3"></audio></li><li class="trk" id="t13"><div class="hd"><span class="no">13</span><div class="ti"><b>Grammar – choose the correct sentence</b><span>Section 13 in your book · 6:43</span></div></div><audio controls preload="none" src="audio/track13.mp3"></audio></li><li class="trk" id="t14"><div class="hd"><span class="no">14</span><div class="ti"><b>Customer-service phrases</b><span>Section 17 in your book · 3:12</span></div></div><audio controls preload="none" src="audio/track14.mp3"></audio></li><li class="trk" id="t15"><div class="hd"><span class="no">15</span><div class="ti"><b>HR round – model answers</b><span>Section 16 in your book · 3:15</span></div></div><audio controls preload="none" src="audio/track15.mp3"></audio></li></ol>
+<small>Independent practice material. Not affiliated with Pearson, Versant, SHL, AMCAT, Mercer or Mettl. Practice voices are computer-generated.</small>
+</div>
+<script>
+(function(){var h=(location.hash||'').slice(1);if(!h)return;var el=document.getElementById(h);if(el){el.classList.add('on');el.scrollIntoView({block:'start'});}})();
+</script></body></html>
